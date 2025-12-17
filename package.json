@@ -1,0 +1,25 @@
+{
+  "name": "unitmaster-md",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host 0.0.0.0",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/content": "^3.8.2",
+    "@nuxt/ui": "^4.2.1",
+    "@nuxtjs/color-mode": "^4.0.0",
+    "@nuxtjs/mdc": "^0.19.1",
+    "better-sqlite3": "^12.5.0",
+    "nuxt": "^4.2.1",
+    "vue": "^3.5.25",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@iconify-json/lucide": "^1.2.79"
+  }
+}

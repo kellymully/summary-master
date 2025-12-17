@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 9999px;
+}
+
+.sidebar-scroll {
+  scrollbar-width: thin;
+}
+
+.sidebar-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 9999px;
+}
+
+
+/* doc content */
+ img.img-small {
+  width: 250px;   
+ 
+}
+
+ img.img-small-B {
+  width: 200px;   
+ 
+}  
+ img.img-small-A {
+  width: 650px;   
+ 
+}  
+
+
+
+
